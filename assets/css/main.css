@@ -29,6 +29,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+iframe {
+	width: 100%; /* El 100% ocupará el ancho del contenedor padre */
+}
+
 body {
 	zoom: 0.8;
 	line-height: 1;
